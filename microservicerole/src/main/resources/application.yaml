@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: microservice-student
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 292329
+    url: jdbc:mysql://192.168.40.1:3306/test
+server:
+  port: 8010
